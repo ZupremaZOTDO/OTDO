@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*main title css*/
+
+
+.title{
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+}
+
+
+/*for the main qoute*/
+
+
+.motto{
+  color: #fff;
+  text-align: center;
+}
+
+
+/*main body*/
+
+
+.sigilInside{
+  width: 100%;
+}
+.sigil{
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+  color: #fff;
+  text-align: center;
+}
+
+.textInside{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+color: #cc0000;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+}
+
+
+/*buttons*/
+
+
+.buttonInside{
+    width: 100%;
+}
+
+.button{
+  width: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  color: #fff;
+  text-align: center;
+  
+}
+
+.submitButton{
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  color: #fff;  
+}
+
+
+/*background*/
+
+
+.background{ 
+  background-color: #000;
+}
