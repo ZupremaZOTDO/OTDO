@@ -5,6 +5,8 @@
   <head>
     <title>Order Of The Dark Oats</title> 
     <link href="mainStyle.css" rel="stylesheet" text="text/css">
+    <script src="mainJavascript.js" rel="stylesheet"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   
   <body class="background">
@@ -22,10 +24,11 @@
     </div>
     
     <div class="buttonInside">
-      <form action="username.txt" method="post">
-        <p class="button">Last Name:<input type="text" name="Last Name"></p>
-        <p class="button">New Password:<input type="password" name="New Password"></p>
-        <p class="submitButton"> <input type="submit" name="submit" value="submit"></p>
+      <form>
+        <p class="button">email:<input id="email" type="text" name="email" placeholder="email"></p>
+        <p class="button">Last Name:<input id="lastName" type="text" name="lastName" placeholder="Last Name"></p>
+        <p class="button">Password:<input id="password" type="password" name="password"></p>
+        <p class="submitButton"> <input type="button" name="submit" value="submit" onclick="postContactToGoogle()"></p>
       </form>
     </div>
     
